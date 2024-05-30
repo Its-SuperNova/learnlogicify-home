@@ -13,7 +13,7 @@ import ServicesAreaHomeFour from "@/components/homes/home-4/ServicesAreaHomeFour
 const SocialServices = () => {
     return (
         <>
-             <HeaderSix style={true} />
+             <HeaderSix  />
              <main>
                 <BreadcrumbThree sub_title="Honest Link Building Services" 
                 title={<>Link building propels <br /> you to the top of search.</>} img={banner_service} style={true} /> 

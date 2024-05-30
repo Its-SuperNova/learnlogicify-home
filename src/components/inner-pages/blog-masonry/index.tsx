@@ -7,7 +7,7 @@ import PostboxAreaMasonry from "./PostboxAreaMasonry";
 const BlogMasonry = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix />
             <main>
                 <BreadcrumbNine top_title="Blog Masonry" title="Blog Masonry" />
                 <PostboxAreaMasonry />

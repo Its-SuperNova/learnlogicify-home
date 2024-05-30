@@ -7,7 +7,7 @@ import BlogListPostboxArea from "./BlogListPostboxArea";
 const BlogList = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix />
             <main>
                 <BreadcrumbNine top_title="Blog List" title="Blog List" />
                 <BlogListPostboxArea />

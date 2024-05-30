@@ -11,7 +11,7 @@ import AboutArea from "./AboutArea";
  const Team = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix  />
             <main>
                 <BreadcrumbFive />
                 <AboutArea />

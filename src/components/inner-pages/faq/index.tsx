@@ -11,7 +11,7 @@ import HeaderSix from "@/layout/headers/HeaderSix";
 const FAQ = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix />
             <main>
                 <BreadcrumbSeven top_title="FAQ" title="FAQ" />
                 <FaqAreaHomeTwo />

@@ -6,7 +6,7 @@ import PostboxArea from "./PostboxArea";
 const BlogGrid = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix  />
             <main>
                 <BreadcrumbNine title={"Blog Grid"} top_title={"Blog Grid"} />
                 <PostboxArea />

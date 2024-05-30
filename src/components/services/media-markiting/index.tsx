@@ -16,7 +16,7 @@ import MediaVideoArea from "./MediaVideoArea";
 const MediaMarkiting = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix  />
             <main>
                 <BreadcrumbThree sub_title="Social Media Marketing"
                     title={<>Enabling your {'brand’s'} Success via social media</>} img={banner_service} style={true} />

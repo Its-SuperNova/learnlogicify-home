@@ -12,7 +12,7 @@ import banner_service from "@/assets/img/services/social-media/services-social-m
 const SeoAudit = () => {
     return (
         <>
-             <HeaderSix style={true} />
+             <HeaderSix  />
              <main>
                 <BreadcrumbThree sub_title="SEO Audit Services"  title={<>In-Deepth Site Audit for <br /> your website</>}
                 img={banner_service} style={false} />

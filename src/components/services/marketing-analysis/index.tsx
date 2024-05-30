@@ -15,7 +15,7 @@ import MarketingFeatureArea from "./MarketingFeatureArea";
 const MarketingAnalysis = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix  />
             <main>
                 <BreadcrumbThree sub_title="Your free SEO analysis."
                     title={<>Why is SEO lounge SEO analysis so much better?</>} img={banner_service} style={true} />

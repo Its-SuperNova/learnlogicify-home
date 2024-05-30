@@ -7,7 +7,7 @@ import PortfolioArea from "./PortfolioArea";
 const Portfolio = () => {
 	return (
 		<>
-			<HeaderSix style={true} />
+			<HeaderSix />
 			<main>
 				<BreadcrumbSeven top_title="Case Studies" title="Case Studies" />
 				<PortfolioArea />

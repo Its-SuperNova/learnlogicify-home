@@ -14,7 +14,7 @@ import Serviceabout from "./Serviceabout";
 const Service = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix />
             <main>
                 <BreadcrumbFour />
                 <ServiceAboutArea />
