@@ -8,7 +8,7 @@ import BlogDetailsPostboxArea from "./BlogDetailsPostboxArea";
 const BlogDetails = () => {
     return (
         <>
-            <HeaderSix style={true} />
+            <HeaderSix/>
             <main> 
                 <BreadcrumbTen />
                 <BlogDetailsPostboxArea />
