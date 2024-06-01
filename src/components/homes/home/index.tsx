@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import { useState, useEffect } from 'react';
 import Wrapper from '@/layout/Wrapper';
 import ScrollIndicator from '@/components/common/ScrollIndicator';
 import HeaderSix from '@/layout/headers/HeaderSix';
