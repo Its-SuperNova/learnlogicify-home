@@ -23,7 +23,7 @@ const HomeOne: React.FC = () => {
     <Wrapper>
       <ScrollIndicator />
       {isMobile ? <HeaderOne /> : <HeaderSix />}
-      <main className="overflow-hidde">
+      <main className="overflow-hidden">
         <BannerHomeOne />
         <ServicesAreaHomeFour />
         <CounterAreaHomeFour />

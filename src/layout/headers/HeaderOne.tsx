@@ -7,7 +7,7 @@ import OffcanvasArea from "@/components/common/OffcanvasArea";
 import useSticky from "@/hooks/use-sticky";
 
 const HeaderOne = () => {
-	const { sticky } = useSticky()
+
 	const [openCanvas, setOpenCanvas] = useState(false)
 	const [openSearch, setOpenSearch] = useState(false)
 
@@ -15,7 +15,7 @@ const HeaderOne = () => {
 	return (
 		<>
 			<header>
-				<div id="header-sticky" className={`tptransparent__header header-1 ${sticky && "header-sticky"}`}>
+				<div id="header-sticky" className={`tptransparent__header header-1`}>
 					<div className="tp-header-top">
 						<div className="container">
 							<div className="tp-mega-menu-wrapper">
