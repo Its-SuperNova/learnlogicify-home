@@ -35,29 +35,67 @@ const footer_links: footer_links_type[] = [
         { title: "Social Media", link: "#" },
       ],
     },
+    {
+      id: 2,
+      title: "Services",
+      links: [
+        { title: "SEO Audit", link: "#" },
+        { title: "SEO Services", link: "#" },
+        { title: "SEO Marketing", link: "#" },
+        { title: "SEO Analysis", link: "#" },
+        { title: "SEO Optimization", link: "#" },
+        { title: "Social Media", link: "#" },
+      ],
+    },
+    {
+      id: 2,
+      title: "Services",
+      links: [
+        { title: "SEO Audit", link: "#" },
+        { title: "SEO Services", link: "#" },
+        { title: "SEO Marketing", link: "#" },
+        { title: "SEO Analysis", link: "#" },
+        { title: "SEO Optimization", link: "#" },
+        { title: "Social Media", link: "#" },
+      ],
+    },
+    {
+      id: 2,
+      title: "Services",
+      links: [
+        { title: "SEO Audit", link: "#" },
+        { title: "SEO Services", link: "#" },
+        { title: "SEO Marketing", link: "#" },
+        { title: "SEO Analysis", link: "#" },
+        { title: "SEO Optimization", link: "#" },
+        { title: "Social Media", link: "#" },
+      ],
+    },
   ]
 
 const FooterCommonLinkItem = () => {
     return (
         <>
+          <div className="footer-content ml-30">
             {footer_links.map((item, i) => (
-                  <div key={i} className="col-lg-3 col-md-6">
-                    <div className="footer-widget footer-col-2 mb-40">
-                      <h4 className="footer-widget-title mb-15">
-                        {item.title}
-                      </h4>
-                      <div className="footer-widget-link">
-                        <ul>
-                          {item.links?.map((link, index) => (
-                            <li key={index}>
-                              <Link href={link.link}>{link.title}</Link>
-                            </li>
-                          ))}
-                        </ul>
+                    <div key={i} className="col-lg-3 col-md-6">
+                      <div className="footer-widget footer-col-2 mb-40">
+                        <h4 className="footer-widget-title mb-15">
+                          {item.title}
+                        </h4>
+                        <div className="footer-widget-link">
+                          <ul>
+                            {item.links?.map((link, index) => (
+                              <li key={index}>
+                                <Link href={link.link}>{link.title}</Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+          </div>
         </>
     );
 };

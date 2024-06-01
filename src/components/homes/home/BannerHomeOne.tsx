@@ -25,7 +25,7 @@ const shapes_img: shapes_img_type[] = [
 ]
 const hero_banner_content = {
 	sub_title: "Welcome To",
-	title: <>LearnLogicify <br />Academy</>,
+	title: <></>,
 	sm_des: <>Discover a Wide Range of Coding Courses Tailored to Enhance Your Skills,<br /> Accelerate Your Career, and Boost Your Success.</>,
 }
 const { sub_title, title, sm_des } = hero_banner_content
@@ -37,8 +37,40 @@ const BannerHomeOne = () => {
 				.containe{
 					padding-left: 40px;
 					padding-right: 40px;
-
 				}
+				.tpbanner__title {
+					font-size: 100px;
+					font-weight: 700;
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
+					background-clip: text;
+					line-height: 1;
+					background-image: -webkit-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
+					background-image: -moz-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
+					background-image: -ms-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
+					background-image: -o-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
+					background-image: linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
+					-moz-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
+					-webkit-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
+					animation: sliderTitle3 3s ease-in-out 1s forwards infinite alternate;
+					background-size: 150% 150%;
+				  }
+				  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+					.tpbanner__title {
+					  font-size: 80px;
+					}
+				  }
+				  @media (max-width: 767px) {
+					.tpbanner__title {
+					  font-size: 50px;
+					}
+				  }
+				  @media only screen and (min-width: 576px) and (max-width: 767px) {
+					.tpbanner__title {
+					  font-size: 60px;
+					}
+				  }
+
 			`}
 			</style>
 			<MouseParallaxContainer>
@@ -53,7 +85,7 @@ const BannerHomeOne = () => {
 											<span>{sub_title}</span>
 											<i><WellcomeShape /></i>
 										</div>
-										<h1 className="tpbanner__title mb-25 pb-10">{title}</h1>
+										<h1 className="tpbanner__title mb-25 pb-10">LearnLogicify <br />Academy</h1>
 										<p>{sm_des}</p>
 										<div className="tpbanner__search">
 											<HeroSearchForm />

@@ -8545,38 +8545,7 @@ blockquote cite::before {
     bottom: 18%;
   }
 }
-.tpbanner__title {
-  font-size: 100px;
-  font-weight: 700;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  line-height: 1;
-  background-image: -webkit-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
-  background-image: -moz-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
-  background-image: -ms-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
-  background-image: -o-linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
-  background-image: linear-gradient(291.09deg, #FF4F99 27.31%, #7F37FE 73.17%);
-  -moz-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
-  -webkit-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
-  animation: sliderTitle3 3s ease-in-out 1s forwards infinite alternate;
-  background-size: 150% 150%;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tpbanner__title {
-    font-size: 60px;
-  }
-}
-@media (max-width: 767px) {
-  .tpbanner__title {
-    font-size: 8px;
-  }
-}
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-  .tpbanner__title {
-    font-size: 50px;
-  }
-}
+
 .tpbanner__sub-title {
   position: relative;
   display: inline-block;

@@ -10,14 +10,14 @@ interface social_links_type {
 
 const social_links: social_links_type[] = [
   {
-    link: "http://facebook.com",
+    link: "http://whatsapp.com",
     target: "_blank",
-    icon: "fab fa-facebook-f", 
+    icon: "fab fa-whatsapp", 
   },
   {
-    link: "http://twitter.com",
+    link: "http://youtube.com",
     target: "_blank",
-    icon: "fab fa-twitter",
+    icon: "fa-brands fa-youtube",
   },
   {
     link: "https://www.linkedin.com",
@@ -60,14 +60,14 @@ interface social_links_type_2 {
 
 const social_links_2: social_links_type_2[] = [
   {
-    link: "http://facebook.com",
+    link: "http://whatsapp.com",
     color: "footer-facebook",
-    icon: "fa-brands fa-facebook-f", 
+    icon: "fa-brands fa-whatsapp", 
   },
   {
-    link: "http://twitter.com",
+    link: "http://youtube.com",
     color: "",
-    icon: "fa-brands fa-twitter",
+    icon: "fa-brands fa-youtube",
   },
   {
     link: "https://www.linkedin.com",
@@ -109,13 +109,13 @@ interface team_social_links_type {
 const team_social_data: team_social_links_type[] = [
   {
     id: 1, 
-    link:"http://facebook.com",
-    icon: "fa-brands fa-facebook-f",
+    link:"http://whatsapp.com",
+    icon: "fa-brands fa-whatsapp",
   },
   {
     id: 2, 
-    link:"http://twitter.com",
-    icon: "fa-brands fa-twitter",
+    link:"http://youtube.com",
+    icon: "fa-brands fa-youtube",
   },
   {
     id: 3, 
@@ -147,7 +147,7 @@ type copy_right_text_type =  {
 
 const copy_right_text: copy_right_text_type = {
   copy_right: <> ©{new Date().getFullYear()} Copyrights by company. All Rights Reserved. Designed by 
-                  <Link target="_blank" href="https://themeforest.net/user/theme_pure/portfolio"> Theme_Pure. </Link> 
+                  <Link target="_blank" href=""> LearnLogicify Technology. </Link> 
               </>,
 }
 

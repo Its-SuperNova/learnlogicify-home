@@ -7,14 +7,14 @@ const SubcribeHomeFour = () => {
     <>
       <form onSubmit={(e) => e.preventDefault()}>
         <div className="p-relative">
-          <div className="footer-widget-newsletter-input mb-15">
+          <div className="footer-widget-newsletter-input mb-15" style={{width:"330px"}}>
             <input type="email" placeholder="Your Email" />
             <span>
               <EmailHomeFour />
             </span>
           </div>
           <div className="footer-widget-btn">
-            <button className="footer-widget-newsletter-btn-2">
+            <button className="footer-widget-newsletter-btn-2 mr-30">
               <i> <ArrowIcon /> </i>
             </button>
           </div>
