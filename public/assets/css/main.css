@@ -102,9 +102,11 @@
 
 
 **********************************************/
+
 /*----------------------------------------*/
 /*  1.1 Theme Default
 /*----------------------------------------*/
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap");
 .tp-postbox-details-input-eye span, .test {
   -webkit-transition: all 0.3s ease-out 0s;
@@ -113,6 +115,7 @@
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
 }
+
 
 :root {
   /** @font family declaration */
@@ -168,7 +171,8 @@
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
-body {
+body
+{
   font-family: var(--tp-ff-body);
   font-size: 16px;
   font-weight: 400;

@@ -2,3 +2,10 @@
 @forward 'components';
 @forward 'layout';
 
+body {
+    position:relative ;
+  }
+  
+  body,html{
+    overflow-x: hidden;
+  }
