@@ -59,15 +59,8 @@ const footer_links: footer_links_type[] = [
 const FooterCommonLinkItem = () => {
     return (
         <>
-              <style jsx>{`
-                .c{
-                  width:220px;
-                  padding-left:30px;
-                  padding-right:0px;
-                }
-              `}</style>
               {footer_links.map((item, i) => (
-                    <div key={i} className="c col-lg-3 col-md-6">
+                    <div key={i} className="c col-lg-3 col-md-6" style={{width:"220px",paddingLeft:"30px",paddingRight:"0px"}}>
                       <div className="footer-widget footer-col-2 mb-40">
                         <h4 className="footer-widget-title mb-15">
                           {item.title}
