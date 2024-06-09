@@ -15,39 +15,44 @@ import SubcribeHomeFour from "@/components/forms/SubcribeHomeFour";
 const FooterFour = () => {
     return (
         <>
+            <style jsx>{`
+                .footer-widget-social {
+                    margin-left: 10px;
+                }
+
+                @media (min-width: 766px) {
+                    .footer-widget-social {
+                        margin-left: 40px;
+                    }
+                }
+            `}</style>
             <footer>
                 <div className="footer-area footer-bg-4 pt-100">
                     <div className="container">
-                    <div className="footer-top">
+                    <div className="footer-top" >
                         <div className="row">
                             <div className="col-lg-3 col-md-6 col-sm-12">
                                 <div className="footer-widget footer-4-col-1 mb-30">
-                                <div className="footer-widget-logo mb-20">
-                                    <Link href="/">
-                                        <span> <LogoHomeFour /> </span>
-                                    </Link>
-                                </div>
-                                <div className="footer-widget-content">
-                                    <p className="footer-widget-text mb-20 ml-15">{footer_info} </p>
-                                    <div className="fooer-btn-4 " style={{marginLeft:"15px"}}>
-                                        <Link className="blue-btn" href="/">Join Today</Link>
+                                    <div className="footer-widget-logo mb-20">
+                                        <Link href="/">
+                                            <span> <LogoHomeFour /> </span>
+                                        </Link>
                                     </div>
-                                </div>
-                                </div>
-                            </div>
-                            <FooterCommonLinkItem /> 
-                            <div className="col-lg-3 col-md-6 col-sm-8" >
-                                <div className="footer-widget  footer-4-col-4 mb-40">
-                                    <h4 className="footer-widget-title ml-30 mb-20">{subcribe}</h4>
-                                    <div className="footer-widget-content mb-40 ml-30">
-                                        <p className="footer-widget-text mb-20">{title}</p>
-                                            <SubcribeHomeFour />
-                                    </div>
-                                    <div className="footer-widget-social ml-30">
-                                        <SocialLinksTwo /> 
+                                    <div className="footer-widget-content">
+                                        <p className="footer-widget-text mb-20 ml-15">{footer_info} </p>
+                                        <div className="fix col-lg-3 col-md-6 col-sm-8 " style={{width:"250px"}}>
+                                            <div className="footer-widget  footer-4-col-4 mb-40">
+                                                <div className="footer-widget-social">
+                                                    <SocialLinksTwo /> 
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            
+                                <FooterCommonLinkItem /> 
+                           
                         </div>
                     </div>
                     <div className="footer-bottom-4 " >

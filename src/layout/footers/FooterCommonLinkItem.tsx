@@ -13,7 +13,7 @@ interface footer_links_type {
 const footer_links: footer_links_type[] = [
     {
       id: 1,
-      title: "Information",
+      title: "Links",
       links: [
         { title: "Home", link: "/" },
         { title: "About Us", link: "/about" },
@@ -25,7 +25,7 @@ const footer_links: footer_links_type[] = [
     },
     {
       id: 2,
-      title: "Services",
+      title: "Packages",
       links: [
         { title: "SEO Audit", link: "#" },
         { title: "SEO Services", link: "#" },
@@ -36,49 +36,38 @@ const footer_links: footer_links_type[] = [
       ],
     },
     {
-      id: 2,
-      title: "Services",
+      id: 3,
+      title: "Legal & Policies",
       links: [
-        { title: "SEO Audit", link: "#" },
-        { title: "SEO Services", link: "#" },
-        { title: "SEO Marketing", link: "#" },
-        { title: "SEO Analysis", link: "#" },
-        { title: "SEO Optimization", link: "#" },
-        { title: "Social Media", link: "#" },
+        { title: "Terms & Conditions", link: "#" },
+        { title: "Privacy Policy", link: "#" },
+        { title: "Refund Policy", link: "#" },
       ],
     },
     {
-      id: 2,
-      title: "Services",
+      id: 4,
+      title: "Legal & Policies",
       links: [
-        { title: "SEO Audit", link: "#" },
-        { title: "SEO Services", link: "#" },
-        { title: "SEO Marketing", link: "#" },
-        { title: "SEO Analysis", link: "#" },
-        { title: "SEO Optimization", link: "#" },
-        { title: "Social Media", link: "#" },
+        { title: "Terms & Conditions", link: "#" },
+        { title: "Privacy Policy", link: "#" },
+        { title: "Refund Policy", link: "#" },
       ],
     },
-    {
-      id: 2,
-      title: "Services",
-      links: [
-        { title: "SEO Audit", link: "#" },
-        { title: "SEO Services", link: "#" },
-        { title: "SEO Marketing", link: "#" },
-        { title: "SEO Analysis", link: "#" },
-        { title: "SEO Optimization", link: "#" },
-        { title: "Social Media", link: "#" },
-      ],
-    },
+    
   ]
 
 const FooterCommonLinkItem = () => {
     return (
         <>
-          <div className="footer-content ml-30">
-            {footer_links.map((item, i) => (
-                    <div key={i} className="col-lg-3 col-md-6">
+              <style jsx>{`
+                .c{
+                  width:220px;
+                  padding-left:30px;
+                  padding-right:0px;
+                }
+              `}</style>
+              {footer_links.map((item, i) => (
+                    <div key={i} className="c col-lg-3 col-md-6">
                       <div className="footer-widget footer-col-2 mb-40">
                         <h4 className="footer-widget-title mb-15">
                           {item.title}
@@ -95,9 +84,9 @@ const FooterCommonLinkItem = () => {
                       </div>
                     </div>
                   ))}
-          </div>
+          
+            
         </>
     );
 };
-
 export default FooterCommonLinkItem;

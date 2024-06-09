@@ -97,7 +97,7 @@ const ServicesAreaHomeFour = ({ style }: any) => {
           </div>
 
           {/* Video Section */}
-          <section className="video-section pt-60 pb-120">
+          <section className="video-section pb-120">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col-lg-8">
