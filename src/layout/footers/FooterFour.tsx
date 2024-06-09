@@ -1,8 +1,8 @@
+"use client"
 import Link from "next/link";
 import LogoHomeFour from "../../svg/logo/footer_logo_home_3";
 import FooterCommonLinkItem from "./FooterCommonLinkItem";
 import { SocialLinksTwo } from "@/components/common/social-links";
-import SubcribeHomeFour from "@/components/forms/SubcribeHomeFour";
 
  const footer_content = {
     footer_info: <>Your Ultimate Destination <br />for Comprehensive and Career <br />Advancing Coding Courses.</>,
@@ -19,7 +19,6 @@ const FooterFour = () => {
                 .footer-widget-social {
                     margin-left: 10px;
                 }
-
                 @media (min-width: 766px) {
                     .footer-widget-social {
                         margin-left: 40px;
@@ -50,9 +49,7 @@ const FooterFour = () => {
                                     </div>
                                 </div>
                             </div>
-                            
                                 <FooterCommonLinkItem /> 
-                           
                         </div>
                     </div>
                     <div className="footer-bottom-4 " >
