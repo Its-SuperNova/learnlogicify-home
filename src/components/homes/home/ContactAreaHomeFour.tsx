@@ -47,9 +47,14 @@ const  {sub_title, title, sm_des, phone, email, cotact_shape}  = contact_content
 const ContactAreaHomeFour = () => {
     return (
         <>
-            <section className="contact-area p-relative contact-bg-4 pb-65 ">
+            <section className="contact-area p-relative contact-bg-4 pb-65 mb-60">
                 <div className="contact-main-shape-bg d-none d-md-block">
                     <Image src={contact_bg_shape} alt="theme-pure" />
+                </div>
+                <div className="contact-shape d-none d-lg-block">
+                    {cotact_shape.map((item, i) => 
+                        <Image key={i} src={item.img} alt="theme-pure" className={`contact-shape-${item.id} ${item.cls}`} />                    
+                    )} 
                 </div>
                 <div className="container">
                     <div className="row">
