@@ -81,37 +81,37 @@ const ServicesAreaHomeFour = ({ style }: any) => {
     <>
       <section className="services-area pb-120">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className={`${
-                  style ? "optimize-subtitle mb-50" : "section-wrapper mb-60"
-                } text-center`}
-              >
-                <span>{style ? sub_title_2 : sub_title}</span>
-                <h5 className={`section-title-4 ${style ? "fs-54" : ""}`}>
-                  {title}
-                </h5>
-              </div>
-            </div>
-          </div>
-
-          {/* Video Section */}
-          <section className="video-section pb-120">
-            <div className="container">
-              <div className="row justify-content-center">
-                <div className="col-lg-8">
-                  <div className="video-wrapper">
-                    <video controls poster={""} className="video-rounded">
-                      <source src={""} type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
+        <section>
+            <div className="row">
+              <div className="col-lg-12">
+                <div
+                  className={`${
+                    style ? "optimize-subtitle mb-50" : "section-wrapper mb-60"
+                  } text-center`}
+                >
+                  <span>{style ? sub_title_2 : sub_title}</span>
+                  <h5 className={`section-title-4 ${style ? "fs-54" : ""}`}>
+                    {title}
+                  </h5>
                 </div>
               </div>
             </div>
-          </section>
 
+            {/* Video Section */}
+            <section className="video-section pb-120">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-lg-8">
+                    <div className="video-wrapper">
+                      <video controls poster={"https://i.ibb.co/b2MBsWq/download.jpg"} className="video-rounded">
+                        <source src={""} type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
           <div className="row">
             {service_data.map((item, i) => (
               <div key={i} className="col-lg-4 col-md-6">
@@ -159,6 +159,28 @@ const ServicesAreaHomeFour = ({ style }: any) => {
       </section>
 
       <style jsx>{`
+        @media (min-width: 993px) {
+          .services-area {
+            background-image: url('/assets/img/bg/IMG_0034.jpg');
+            background-size: contain;
+            background-position: top center ;
+            background-repeat: no-repeat;
+            padding-top:150px
+          }
+        }
+
+        @media (max-width: 992px) {
+          .services-area {
+            background-image: url('/assets/img/bg/IMG_0033.jpg');
+            background-size: contain;
+            background-position: top center;
+            background-repeat: no-repeat;
+          }
+            .services-area{
+              padding-top:0px;
+            }
+        }
+
         .video-rounded {
           width: 100%;
           border-radius: 20px;
