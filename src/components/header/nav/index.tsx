@@ -1,4 +1,3 @@
-"use client"
 import React, { useState } from 'react';
 import styles from './style.module.scss';
 import { motion } from 'framer-motion';
@@ -34,7 +33,7 @@ const navItems: NavItem[] = [
 
 const Index: React.FC = () => {
   const pathname = usePathname();
-  const [selectedIndicator, setSelectedIndicator] = useState<string>(pathname);
+  const [selectedIndicator, setSelectedIndicator] = useState<string | null>(pathname);
 
   return (
     <motion.div variants={menuSlide} initial="initial" animate="enter" exit="exit" className={styles.menu}>
